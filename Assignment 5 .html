@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        .head,
+        .footertext {
+            background-color: gray;
+            padding: 20px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: normal;
+            font-size: x-large;
+
+        }
+
+        .text {
+            float: right;
+            width: 75%;
+        }
+
+        .lists {
+
+            width: 25%;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 5px;
+            background-color: aqua;
+            margin-bottom: 5px;
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        ul {
+            float: left;
+            margin-top: 7px;
+            margin-bottom: 4px;
+            padding: 10px;
+            /* background-color: aqua; */
+        }
+
+        ul li:hover {
+            background-color: darkcyan;
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head ">
+        <p>chania</p>
+    </div>
+    <div class="clearfix">
+        <div class="lists">
+            <ul>
+                <li>THE FLIGHT</li>
+                <li>THE CITY</li>
+                <li>THE ISLAND</li>
+                <li>THE FOOD</li>
+            </ul>
+        </div>
+        <div class="text">
+            <h1>The city</h1>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid enim ab mollitia, labore nulla
+                voluptatibus laborum minus praesentium! Vero natus nesciunt, dignissimos in ipsa quis tempore sed fugiat
+                aliquid ipsum.</p>
+        </div>
+    </div>
+    <div class="footertext">
+        <p>footer text</p>
+    </div>
+</body>
+
+</html>

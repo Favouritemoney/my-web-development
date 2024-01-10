@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar block</title>
+    <style>
+        * {
+            padding: 30px;
+            margin: 0px;
+        }
+
+        main {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .weekdays {
+            color: red;
+        }
+
+        .me {
+            color: red;
+        }
+
+        table,
+        tr,
+        td,
+        th {
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            border-collapse: collapse;
+            border-color: blue;
+        }
+
+        #Head__month {
+            background-color: blue;
+            color: white;
+            border: hidden;
+            font-size: x-large;
+            letter-spacing: 3px;
+        }
+
+        .First_column {
+            border-left: hidden;
+        }
+
+        #Bottom_row {
+            border-bottom: hidden;
+        }
+
+        .Right_column {
+            border-right: hidden;
+        }
+
+        .numbers {
+            font-size: x-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .numbers:hover {
+            color: rgb(78, 47, 255);
+            transition: all 1s;
+            cursor: pointer;
+        }
+        .span {
+            position: relative;
+        }
+        .span p {
+            position: absolute;
+            font-size: 48px;
+            top:   -350px;
+            color: rgba(0,0,0, 0.3);
+            z-index: -1;
+            left: 40%;
+            letter-spacing: 30px;
+            transform: rotate(-deg);
+            opacity: 0.6;   
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <table>
+            <thead>
+                <tr id="Head__month">
+                    <th colspan="7">SEPTEMBER</th>
+                </tr>
+                <tr class="weekdays">
+                    <th class="First_column">SU</th>
+                    <th>MO</th>
+                    <th>TU</th>
+                    <th>WE</th>
+                    <th>TH</th>
+                    <th>FR</th>
+                    <th class="Right_column">SA</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="First_column"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="numbers">1</td>
+                    <td class="Right_column numbers">2</td>
+                </tr>
+                <td class="me First_column numbers">3</td>
+                <td class="numbers">4</td>
+                <td class="numbers">5</td>
+                <td class="numbers">6</td>
+                <td class="numbers">7</td>
+                <td class="numbers">8</td>
+                <td class="Right_column numbers">9</td>
+                <tr>
+                    <td class="me First_column numbers">10</td>
+                    <td class="numbers">11</td>
+                    <td class="numbers">12</td>
+                    <td class="numbers">13</td>
+                    <td class="numbers">14</td>
+                    <td class="numbers">15</td>
+                    <td class="Right_column numbers">16</td>
+                </tr>
+                <tr>
+                    <td class="me First_column numbers">17</td>
+                    <td class="numbers">18</td>
+                    <td class="numbers">19</td>
+                    <td class="numbers">20</td>
+                    <td class="numbers">21</td>
+                    <td class="numbers">22</td>
+                    <td class="Right_column numbers">23</td>
+                </tr>
+                <tr id="Bottom_row">
+                    <td class="me First_column numbers">24</td>
+                    <td class="numbers">25</td>
+                    <td class="numbers">26</td>
+                    <td class="numbers">27</td>
+                    <td class="numbers">28</td>
+                    <td class="numbers">29</td>
+                    <td class="Right_column numbers">30</td>
+                </tr>
+            </tbody>
+
+        </table>
+        <div class="span">
+            <p>favour</p>
+        </div>
+    </main>
+</body>
+
+</html>

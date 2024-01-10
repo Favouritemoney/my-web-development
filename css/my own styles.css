@@ -1,0 +1,350 @@
+/* div {
+    color: blue;
+    font-size: xx-large;
+
+
+}
+div :hover {
+    color: black;
+    transition: all 2s;
+     cursor: pointer;
+} */
+
+
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+
+.third {
+    width: 100%;
+}
+
+.body {
+    border: 2px solid black;
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+table td {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: 1px solid grey;
+    border-bottom: hidden;
+    padding: 20px
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last {
+    border-right: hidden;
+}
+
+p {
+    text-align: center;
+}
+
+.first {
+    padding-left: 8px;
+
+}
+
+.first_1 {
+    width: 46%;
+    margin-top: 3px;
+    outline-style: 1px solid gray;
+}
+
+.second_2 {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 46%;
+    outline-style: 1px solid gray;
+}
+
+.forms {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.third_3 {
+    width: 100%;
+}
+
+.third {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.fourth_4 {
+    width: 100%;
+}
+
+.fourth {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.lass_text {
+    text-align: center;
+    padding: 12px 30px;
+    background-color: green;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 12px;
+    color: whitesmoke;
+
+} */
+.first_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_card_container {
+    box-shadow: 5px 5px 4px  blue;
+    height: 300px;
+    width: 50%;
+    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.first_pic {
+    background-size: cover;
+    height:120px
+}
+.first_pic img {
+    border: 3px dotted blue;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+.first_card_body h2 {
+color: blue;
+text-align: center;
+font-size: x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 0px;
+
+}
+.first_card_body p {
+text-align: justify;
+margin-inline: 10px;
+margin-block: 10px;
+}
+/******** second css****** */
+.second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.second_card_container {
+    box-shadow: 5px 5px 4px  blue;
+    height: 300px;
+    width: 50%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.second_pic {
+    background-size: cover;
+    height:120px;
+    /* border-top-left-radius: 20px;
+border-top-right-radius: 20px; */
+}
+
+.second_pic img {
+    border: 3px dotted blue;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+/* border-top-left-radius: 20px;
+border-top-right-radius: 20px; */
+}
+.second_card_body h2 {
+color: blue;
+text-align: center;
+font-size: x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-block: 7px;
+
+}
+.second_card_body p {
+text-align: justify;
+margin-inline: 10px;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+/******** third css **********/
+.third_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.third_card_container {
+    box-shadow: 5px 5px 4px  blue;
+    height: 300px;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+.third_pic {
+    background-size: cover;
+    height:120px
+}
+.third_pic img {
+    border: 3px dotted blue;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+.third_card_body h2 {
+color: blue;
+text-align: center;
+font-size: x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-block: 7px;
+
+}
+.third_card_body p {
+text-align: justify;
+margin-inline: 10px;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+/********* fourth css ********/
+.fourth_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.fourth_card_container {
+    box-shadow: 5px 5px 4px  blue;
+    height: 300px;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+.fourth_pic {
+    background-size: cover;
+    height:120px
+}
+.fourth_pic img {
+    border: 3px dotted blue;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+.fourth_card_body h2 {
+color: blue;
+text-align: center;
+font-size: x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-block: 7px;
+
+}
+.fourth_card_body p {
+text-align: justify;
+margin-inline: 10px;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+/********** fifth css *********/
+.fifth_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.fifth_card_container {
+    box-shadow: 5px 5px 4px  blue;
+    height: 300px;
+    width: 50%;
+     border-radius: 20px;
+    
+}
+.fifth_pic {
+    background-size: cover;
+    height:120px
+}
+.fifth_pic img {
+    border: 3px dotted blue;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+.fifth_card_body h2 {
+color: blue;
+text-align: center;
+font-size: x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-block: 7px;
+
+}
+.fifth_card_body p {
+text-align: justify;
+margin-inline: 10px;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+/*********** sixth css ************/
+.sixth_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.sixth_card_container {
+    box-shadow: 5px 5px 4px  blue;
+    height: 300px;
+    width: 50%;
+    border-radius: 20px;
+}
+.sixth_pic {
+    background-size: cover;
+    height:120px
+}
+.sixth_pic img {
+    border: 3px dotted blue;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+
+}
+.sixth_card_body h2 {
+color: blue;
+text-align: center;
+font-size: x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-block: 7px;
+
+}
+.sixth_card_body p {
+text-align: justify;
+margin-inline: 10px;
+margin-top: 5px;
+margin-bottom: 0px;
+}
